@@ -1,18 +1,24 @@
 * {
     box-sizing: border-box;
+
 }
+
 .column {
     float: left;
     width: 25%;
     padding: 10px;
 }
 
-.jumbotron jumbotron-fluid {
-    background-color: black;
-}
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 75%;
+}
+
+.words {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Livvic', sans-serif;
 }
