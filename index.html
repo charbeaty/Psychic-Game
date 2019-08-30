@@ -1,68 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Word Guess Game</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-     </head>
-    <body>
-    <div class="jumbotron">
-        <img src="C:\Users\charb\OneDrive\Desktop\bootcamp\homework\Word-Guess-Game\assets\images\2-WordGuess.jpg" alt="Eighties Word Game">
-    </div>
-    
-        <!--make an array of words for computer to choose from
-        //var words = ["Journey", "ACDC", ect];
 
-        //pick a random word from words array
-        //var word = words[Math.floor(Math.random() * words.length];
+<head>
+    <meta charset="UTF-8">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
 
-        //sets up the answerArray to show how many letters there are;
-        //using _'s;
-
-        var answerArray ={};
-        for(var i = 0; i < word.lenth; i++) {
-         answerArray[i] = "_";
-        }
-
-
-        //create a variable to hold number of remainingLetters
-
-         var remainingLetters = word.length;
-
-        //while there are letters left to be guessed
-
-      while (remainingLetters >12{
-
-
-        //show the player their progress
-
-        alert(answerArray.join(''));
-
-        //get a guess from the player
-
-        var guess = prompt("Press any key to get started!")
-
-        //valid guess
-
-        else{
-                //update the game state with the guess
-        for (var j = 0; j < word.length; j++ )
-
-
-    //if the letter they guess is in the word
+<body>
+    <div class="container">
+        <div class="jumbotron">
+    <img src="\Users\charb\OneDrive\Desktop\bootcamp\homework\Word-Guess-Game\assets\images\3-WordGuess.png" class="center" style="width: 25%;">
+           <h1 class="text-center">1990's Words Guess Game</h1>
+        </div>
+        </div>
         
-    if (word[j] === guess) {
-        //update answer array with the letter that was guessed
-                    answerArray[j] = guess;
-                    //subtract one from remaining letters
-                    remainingLetters--;}
-                    // **********END OF GAME LOOP! ****************
-                }
-            }--!>
-           
-        <script src="game.js"></script>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="col-sm-6">
+                <p>Press any key to get started!</p>
+                <p>Wins:</p>
+                <p>Number of Guesses Remaining:</p>
+                <p>Letters Already Guessed:</p>
+            </div>
+        </div>
+    </div>
+    </div>
+   <!--Don't forget to link game.js-->
 
-    </body>
-    
+</body>
+
 </html>
