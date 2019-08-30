@@ -2,7 +2,9 @@
     box-sizing: border-box;
 
 }
-
+.container {
+    background-color: black;
+}
 .column {
     float: left;
     width: 25%;
@@ -17,7 +19,7 @@
 }
 
 .words {
-    color: black;
+    color: white;
     font-weight: bold;
     text-align: center;
     font-family: 'Livvic', sans-serif;
