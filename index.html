@@ -4,36 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Word Guess Game</title>
-    <link href="https://fonts.googleapis.com/css?family=Handlee|Just+Another+Hand|Livvic|Shadows+Into+Light+Two|VT323&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="C:\Users\charb\OneDrive\Desktop\bootcamp\homework\Word-Guess-Game\assets\css\style.css">
-    <link rel="stylesheet" type="text/css" href="C:\Users\charb\OneDrive\Desktop\bootcamp\homework\Word-Guess-Game\assets\css\reset.css">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Handlee|Just+Another+Hand|Livvic|Shadows+Into+Light+Two|VT323&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="C:\Users\charb\OneDrive\Desktop\bootcamp\homework\Word-Guess-Game\assets\css\reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="C:\Users\charb\OneDrive\Desktop\bootcamp\homework\Word-Guess-Game\assets\css\style.css">
+
     <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-    <img src="https://d2odgkulk9w7if.cloudfront.net/images/default-source/blogs/90s.png?sfvrsn=d5a70efe_0" alt="The 90s" class="center" style="width: 25%;">
-    <h1 class="wordGame">Word Guess Game</h1>
-</div>
-        </div>
+
+<div class="container">
+
+                
+    <div class="jumbotron">
         
+
+    <div id="image">
+    <img src="https://d2odgkulk9w7if.cloudfront.net/images/default-source/blogs/90s.png?sfvrsn=d5a70efe_0" alt="The 90s" style="width: 25%;">
+    <h1 class="guessGame">Word Guess Game</h1>
+</div>
+    </div>
     <div class="row">
-        <div class="col-sm-6">
-            <img src="https://triviamatic.s3.amazonaws.com/f3e80bf0-7276-4e23-afef-fb5dd89c886f.jpg" alt="90's television" class="center" style="width: 40%;">
-        </div>
-            <div class="col-sm-6">
-                <p class="words">Press any key to get started!</p>
-                <p class="words">Wins:</p>
-                <p class="words">Number of Guesses Remaining:</p>
-                <p class="words">Letters Already Guessed:</p>
-            </div>
-        </div>
+    <div class="col-md-6">
+    <div id="trivia">
+    <img src="https://triviamatic.s3.amazonaws.com/f3e80bf0-7276-4e23-afef-fb5dd89c886f.jpg" alt="90's television" style="width: 40%;"></div>
     </div>
+    <div class="col-md-6">
+    <div id="start"><p>Press any key to get started!</p></div>
+    
+    <div id="win"><p>Wins:</p></div>
+    
+    <div id="remaining"><p>Number of Guesses Remaining:</p></div>
+    
+    <div id="guessed"><p>Letters Already Guessed:</p></div>
     </div>
-   <!--Don't forget to link game.js-->
+</div>
+</div>
+    <script type="text/javascript" src="C:\Users\charb\OneDrive\Desktop\bootcamp\homework\Word-Guess-Game\assets\javascript\game.js"></script>
 
 </body>
 
