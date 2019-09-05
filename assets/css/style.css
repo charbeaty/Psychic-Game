@@ -6,26 +6,18 @@ html, body {
     margin: 5px;
     padding: 5px;
     height: 100%;
-    background-color: black;
+    background-color: gray;
     color: turquoise;
     font-family: 'Shadows Into Light Two';
     text-align: center;
     font-size: 24px;
 }
 .jumbotron {
-    background-color: black;
+    background-color: gray;
     padding: 10px;
 }
-#image { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+
 }
-.col-md-6 {
-    border: 5px dotted turquoise;
-    height: 450px;
-    padding: 5px;
-}
+
 
 
