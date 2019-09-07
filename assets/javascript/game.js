@@ -7,7 +7,7 @@ var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g',
 //Variables for tracking wins, losses, and guesses left
 var wins = 0;
 var losses = 0;
-var guessLeft = 12;
+var guess = 12;
 
 
 
@@ -21,8 +21,8 @@ var guessLeft = 12;
 var userWins = document.getElementById("user-wins");
 var userLosses = document.getElementById("user-losses");
 var guessLeft = document.getElementById("guess-left");
-var userGuess = document.getElementById("user-guess");
-
+var userChoice = document.getElementById("user-choice");
+console.log(userChoice);
 document.onkeyup = function(event) {
        var userGuess = event.key;
 
@@ -30,15 +30,13 @@ var computerChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
  
 console.log(computerChoice);  
 
-if(userGuess === alphabet){
-                if (userGuess === computerChoice){  wins++;
-        }
-        if(userGuess !== computerChoice){ 
-                losses++;
-        }
-        
-        userWins.textContent = wins;
-        userLosses.textContent = losses;
-        guessLeft.textContent = guessLeft;
+if(userGuess === computerChoice){
+        wins++;
+}else{
+        losses++;
 }
+        userWins.textContent = "Wins: " + wins;
+        userLosses.textContent = "Losses: " + losses;
+        guessLeft.textContent = "Guesses Left: " + guess;
+        userChoice.textContent = "You Guessed: " + userGuess;
 };
