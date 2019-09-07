@@ -35,6 +35,15 @@ if(userGuess === computerChoice){
 }else{
         losses++;
 }
+if(userGuess === computerChoice || userGuess !== computerChoice){
+        guess--;
+}
+if(guess === 0 {
+        
+        //code to restart game
+})
+
+
         userWins.textContent = "Wins: " + wins;
         userLosses.textContent = "Losses: " + losses;
         guessLeft.textContent = "Guesses Left: " + guess;
